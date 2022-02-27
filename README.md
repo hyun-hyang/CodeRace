@@ -10,4 +10,4 @@
 
 ### Notes
 
-- `a = int(input())` 보다 `import sys` 후에 `a = int(sys.stdin.readline())`으로 입력값을 받는게 __running time__이 적음
+- `a = int(input())` 보다 `import sys` 후에 `a = int(sys.stdin.readline())`으로 입력값을 받는게 **running time**이 적음
