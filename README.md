@@ -7,7 +7,3 @@
 ### Explanation
 문제 중 고민을 하는 문제가 있거나, 혹은 풀기 까다롭고 나중에 제 생각을 되짚어볼 만한 문제들에 한해서 [choiminjun blog](https://choiminjun.com/article/algorithm-intro)에서 아티클를 기재할 예정입니다.
 
-
-### Notes
-
-- `a = int(input())` 보다 `import sys` 후에 `a = int(sys.stdin.readline())`으로 입력값을 받는게 **running time**이 적음
