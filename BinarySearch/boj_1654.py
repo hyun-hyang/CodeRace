@@ -1,4 +1,3 @@
-import sys
 
 def solution():
     K, N = map(int, input().split())
