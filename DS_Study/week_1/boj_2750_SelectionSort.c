@@ -24,6 +24,7 @@ int main() {
     arr[idx] = temp;
   }
 
+
   // 결과
   for (i=0; i<num; i++){
     printf("%d\n", arr[i]);
@@ -31,3 +32,4 @@ int main() {
 
   return 0;
 }
+
