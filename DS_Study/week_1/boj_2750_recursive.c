@@ -36,6 +36,4 @@ int SelectionSort(int a[], int n) {
     a[m_idx] = temp;
 
     SelectionSort(a+1,n-1);
-
-    
 }
