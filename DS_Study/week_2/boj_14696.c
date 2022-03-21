@@ -28,7 +28,7 @@ int main() {
 
         result = 'D';
         for (int i=4; i>0; i--) {
-            if (A[i]<B[i]) {
+            if (A[i]>B[i]) {
                 result = 'A';
                 break;
             }
