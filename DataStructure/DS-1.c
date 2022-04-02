@@ -25,9 +25,9 @@ int main() {
 	
 	
 	// 입력 예제
-	//A = 2x5 +7x2 -4x0;
-	//B = 6x3 +2xl +9x0;
-	//D = 12x8 +4x6 +60x5 -10x3 +63x2 –8x1 -36x0
+	// A = 2x5 +7x2 -4x0;
+	// B = 6x3 +2xl +9x0;
+	// D = 12x8 +4x6 +60x5 -10x3 +63x2 –8x1 -36x0
 
 	// A, B 식 입력
 	char Ax[20], Bx[20];
@@ -73,7 +73,7 @@ int main() {
 	for (int i = 0; i < 9; i++) {
 		for (int j = 0; j < 9; j++) {
 			if (A[i].coef != 0 && B[j].coef != 0) {
-				int mulCoef = A[i].coef * B[i].coef;
+				int mulCoef = A[i].coef * B[j].coef;
 				int mulExp = exp[i] + exp[j];
 
 				if (D[mulExp].coef == 0)
